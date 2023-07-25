@@ -1,0 +1,36 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+}
+
+img {
+  height: 50px;
+  margin-left: 15px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-right: 5px;
+}
+
+li {
+  text-transform: uppercase;
+  margin-right: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #CFD0D8;
+  font-weight: 700;
+}
+
+a:hover {
+  color: #d10092;
+  transition: 0.5s;
+  font-weight: 800;
+}

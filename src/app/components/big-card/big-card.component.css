@@ -1,0 +1,36 @@
+article {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+img {
+  width: 29.375rem;
+  height: 18.75rem;
+  border-radius: 0.313rem;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  max-height: 18.75rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  height: auto;
+  font-size: 2.188rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+p {
+  display: flex;
+  font-weight: 400;
+  color: #6c6c6d;
+}
